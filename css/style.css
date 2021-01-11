@@ -1,0 +1,31 @@
+h1 {
+    color: rgb(255, 30, 0);
+    font-weight: bolder;
+}
+
+.Trending img {
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.Trending img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.Trending h5 {
+    color: rgb(212, 136, 82);
+    font-weight: bolder;
+    /* text-align: center; */
+}
+
+.Trending h4 {
+    font-weight: bolder;
+    color: white;
+    /* text-align: center; */
+}
+
+.Trending p {
+    font-size: 17px;
+    color: rgb(230, 202, 180);
+    /* text-align: center; */
+}
