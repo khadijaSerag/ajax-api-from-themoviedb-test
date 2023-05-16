@@ -7,7 +7,7 @@ myRequest.send();
 
 myRequest.addEventListener("readystatechange", function () {
     if (myRequest.readyState == 4 && myRequest.status == 200) {
-        posts = JSON.parse(myRequest.response).results// دى عشان احول الداتا اللى جات من استرنج لاراى عشان اعرف اتعامل معاها 
+        posts = JSON.parse(myRequest.response).results// convert the data that came from String to an array, so I know how to deal with it
         // console.log(posts);
         displayPosts();
     }
